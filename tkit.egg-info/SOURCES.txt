@@ -6,6 +6,7 @@ test/test.py
 tkit/__init__.py
 tkit/args.py
 tkit/colors.py
+tkit/printer.py
 tkit.egg-info/PKG-INFO
 tkit.egg-info/SOURCES.txt
 tkit.egg-info/dependency_links.txt
