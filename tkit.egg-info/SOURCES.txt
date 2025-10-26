@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+test/__init__.py
+test/test.py
+tkit/__init__.py
+tkit/args.py
+tkit/colors.py
+tkit.egg-info/PKG-INFO
+tkit.egg-info/SOURCES.txt
+tkit.egg-info/dependency_links.txt
+tkit.egg-info/top_level.txt
