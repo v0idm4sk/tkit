@@ -6,10 +6,11 @@ test/test.py
 tkit/__init__.py
 tkit/args.py
 tkit/colors.py
+tkit/confirm.py
 tkit/printer.py
+tkit/progress.py
 tkit/prompt.py
 tkit.egg-info/PKG-INFO
 tkit.egg-info/SOURCES.txt
 tkit.egg-info/dependency_links.txt
-tkit.egg-info/requires.txt
 tkit.egg-info/top_level.txt

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tkit"
+version = "0.1.0"
+description = "TKit is an all-in-one Python library for the CLI, with functions like text color, decorated inputs, loading functions, argument functions, and more. Try TKit and enjoy the ease of programming for CLI in Python."
+readme = "README.md"
+authors = [
+  {name = "VoidMask", email = "voidmaskyt@gmail.com"},
+]
+license = {file = "LICENSE"}
+
+keywords = ["python", "cli", "indie", "terminal", "tools", "all", "in", "one", "all-in-one", "all in one", "terminal-tools", "cli-tools", "terminal tools", "cli tools"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # O la licencia que uses.
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    # Si tienes dependencias externas (ej. "requests>=2.28.1"), añádelas aquí.
+]

@@ -50,12 +50,12 @@ class prompt:
             # Entrada normal con los códigos ANSI deseados.
             raw_input = input(f"{start_style_in}{reset_code}")
         
-        # --- Asignación de Atributos (CORREGIDA) ---
-        self.value = raw_input
-        self.color = opt.get("color")
-        self.bg = self.background = opt.get("bg")
-        self.style = opt.get("style")
+        # Coming soon...
+        #self.value = raw_input
+        #self.color = opt.get("color")
+        #self.bg = self.background = opt.get("bg")
+        #self.style = opt.get("style")
         
-        self.color_in = opt.get("color-in")
-        self.bg_in = self.background_in = opt.get("bg-in")
-        self.style_in = opt.get("style-in")
+        #self.color_in = opt.get("color-in")
+        #self.bg_in = self.background_in = opt.get("bg-in")
+        #self.style_in = opt.get("style-in")
