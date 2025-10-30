@@ -1,3 +1,4 @@
+"""
 from . import colors
 
 def ulist(obj, **opt):
@@ -39,10 +40,8 @@ def ulist(obj, **opt):
     dscrptn = _process_obj(obj, 0)
     
     for line in dscrptn:
-        print(f"{start_style}{line}{reset_code}")
+        return f"{start_style}{line}{reset_code}"
         
-        
-from . import colors
 
 def olist(obj, **opt):
     start_style = ""
@@ -89,4 +88,9 @@ def olist(obj, **opt):
     dscrptn, final_count = _process_obj(obj, 0)
     
     for line in dscrptn:
-        print(f"{start_style}{line}{reset_code}")
+        return f"{start_style}{line}{reset_code}"
+        
+def table(obj, **opt):
+    if isinstance(obj, dict):
+        print()
+"""        

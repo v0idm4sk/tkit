@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tkit"
-version = "0.1.0"
+version = "1.0.0"
 description = "TKit is an all-in-one Python library for the CLI, with functions like text color, decorated inputs, loading functions, argument functions, and more. Try TKit and enjoy the ease of programming for CLI in Python."
 readme = "README.md"
 authors = [
